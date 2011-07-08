@@ -1,0 +1,97 @@
+fileFormatVersion: 1
+guid: 77820bfaee7bb094ebf080e3f5aaa6ff
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    pCube1 2:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    backCOL:
+    - 100002
+    - 400002
+    back:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+    //RootNode:
+    - 100006
+    - 400006
+    - 11100000
+    pCube1 1:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    whole:
+    - 100010
+    - 400010
+    - 3300006
+    - 2300006
+    front:
+    - 100012
+    - 400012
+    - 3300008
+    - 2300008
+    polySurface1:
+    - 100014
+    - 400014
+    - 3300010
+    - 2300010
+    wholeCOL:
+    - 100016
+    - 400016
+    polySurface2:
+    - 100018
+    - 400018
+    - 3300012
+    - 2300012
+    pCube1:
+    - 100020
+    - 400020
+    - 3300014
+    - 2300014
+    polySurface3:
+    - 100022
+    - 400022
+    - 3300016
+    - 2300016
+    frontCOL:
+    - 100024
+    - 400024
+    parts:
+    - 100026
+    - 400026
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: whole
+    4300002: pCube1
+    4300004: polySurface1
+    4300006: back
+    4300008: pCube1
+    4300010: polySurface3
+    4300012: front
+    4300014: pCube1
+    4300016: polySurface2
