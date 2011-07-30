@@ -9,9 +9,11 @@ public class Score : MonoBehaviour {
 	}
 	public int FishFired = 0;
 	public int FishCut = 0;
+	public GameTimer gt;
 	// Update is called once per frame
 	void Update () {
-		guiText.text = FishCut.ToString() + " / " + FishFired.ToString();
+		guiText.text = FishCut.ToString() + " / " + FishFired.ToString() 
+		+ "  Time: " + (gt.GameTime - gt.time).ToString();
 	}
 	public void FireFish()
 	{

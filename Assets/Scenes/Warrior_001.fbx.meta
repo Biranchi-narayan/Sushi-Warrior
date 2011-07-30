@@ -1,0 +1,114 @@
+fileFormatVersion: 1
+guid: d8ee6e1bb5a893346b05a58d10372dd6
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    rt_hip:
+    - 100000
+    - 400000
+    lt_hip:
+    - 100002
+    - 400002
+    rt_ankle:
+    - 100004
+    - 400004
+    rt_foot:
+    - 100006
+    - 400006
+    lt_ankle:
+    - 100008
+    - 400008
+    lt_foot:
+    - 100010
+    - 400010
+    rt_wrist:
+    - 100012
+    - 400012
+    rt_elbow:
+    - 100014
+    - 400014
+    //RootNode:
+    - 100016
+    - 400016
+    - 11100000
+    rt_knee:
+    - 100018
+    - 400018
+    lt_knee:
+    - 100020
+    - 400020
+    hand 1:
+    - 100022
+    - 400022
+    warrior_004:polySurface51:
+    - 100024
+    - 400024
+    rt_shoulder:
+    - 100026
+    - 400026
+    rt_clavicle:
+    - 100028
+    - 400028
+    hand:
+    - 100030
+    - 400030
+    lt_wrist:
+    - 100032
+    - 400032
+    lt_elbow:
+    - 100034
+    - 400034
+    lt_shoulder:
+    - 100036
+    - 400036
+    lt_clavicle:
+    - 100038
+    - 400038
+    head:
+    - 100040
+    - 400040
+    neck_1:
+    - 100042
+    - 400042
+    spine_5:
+    - 100044
+    - 400044
+    spine_4:
+    - 100046
+    - 400046
+    spine_3:
+    - 100048
+    - 400048
+    spine_2:
+    - 100050
+    - 400050
+    spine_1:
+    - 100052
+    - 400052
+    root:
+    - 100054
+    - 400054
+    - 13700000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: warrior_004:polySurface51

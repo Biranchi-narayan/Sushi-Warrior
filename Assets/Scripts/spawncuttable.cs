@@ -10,7 +10,7 @@ public class spawncuttable : MonoBehaviour {
 	public OpenNIUserTracker kinect;
 	public Vector3 lowRand;
 	public Vector3 highRand;
-	
+	public bool trackingUser = true;
 	public Vector3 lowRTorque;
 	public Vector3 highRTorque;
 	// Use this for initialization
@@ -26,7 +26,7 @@ public class spawncuttable : MonoBehaviour {
 		if (timeAccum > Random.Range(delayLow,delayHigh))
 		
 		{
-			if (kinect.trackingUser)
+			if (trackingUser)
 			{
 				timeAccum = 0.0f;
 				Rigidbody clone;

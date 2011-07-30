@@ -1,0 +1,126 @@
+fileFormatVersion: 1
+guid: 2b8e9caa5255269448cb27acd68bf5fe
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    rt_hip:
+    - 100002
+    - 400002
+    lt_foot:
+    - 100004
+    - 400004
+    handR:
+    - 100006
+    - 400006
+    rt_wrist:
+    - 100008
+    - 400008
+    lt_hip:
+    - 100010
+    - 400010
+    attachR:
+    - 100012
+    - 400012
+    - 3300000
+    - 2300000
+    lt_ankle:
+    - 100014
+    - 400014
+    lt_knee:
+    - 100016
+    - 400016
+    rt_ankle:
+    - 100018
+    - 400018
+    rt_knee:
+    - 100020
+    - 400020
+    rt_foot:
+    - 100022
+    - 400022
+    rt_elbow:
+    - 100024
+    - 400024
+    rt_shoulder:
+    - 100026
+    - 400026
+    rt_clavicle:
+    - 100028
+    - 400028
+    attachL:
+    - 100030
+    - 400030
+    - 3300002
+    - 2300002
+    handL:
+    - 100032
+    - 400032
+    lt_wrist:
+    - 100034
+    - 400034
+    lt_elbow:
+    - 100036
+    - 400036
+    lt_shoulder:
+    - 100038
+    - 400038
+    lt_clavicle:
+    - 100040
+    - 400040
+    head:
+    - 100042
+    - 400042
+    neck_1:
+    - 100044
+    - 400044
+    spine_5:
+    - 100046
+    - 400046
+    spine_4:
+    - 100048
+    - 400048
+    spine_3:
+    - 100050
+    - 400050
+    spine_2:
+    - 100052
+    - 400052
+    spine_1:
+    - 100054
+    - 400054
+    root:
+    - 100056
+    - 400056
+    - 13700000
+    warriorProperMesh:
+    - 100058
+    - 400058
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: attachL
+    4300002: attachR
+    4300004: warriorProperMesh

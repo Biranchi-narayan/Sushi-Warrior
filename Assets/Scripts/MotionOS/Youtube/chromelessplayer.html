@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<style type="text/css">
+body{
+
+}
+</style>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load("swfobject", "2.1");
+    </script>    
+    <script type="text/javascript">
+
+      // Update a particular HTML element with a new value
+      function updateHTML(elmId, value) {
+        document.getElementById(elmId).innerHTML = value;
+      }
+      
+      // This function is called when an error is thrown by the player
+      function onPlayerError(errorCode) {
+        alert("An error occured of type:" + errorCode);
+      }
+      
+      // This function is called when the player changes state
+      function onPlayerStateChange(newState) {
+        updateHTML("playerState", newState);
+      }
+      
+     
+      // Allow the user to set the volume from 0-100
+      function setVideoVolume(volume) {
+        if(isNaN(volume) || volume < 0 || volume > 100) {
+        }
+        else if(ytplayer){
+          ytplayer.setVolume(volume);
+        }
+      }
+      
+      function playVideo() {
+        if (ytplayer) {
+          ytplayer.playVideo();
+        }
+      }
+      
+      function pauseVideo() {
+        if (ytplayer) {
+          ytplayer.pauseVideo();
+        }
+      }
+      
+      function muteVideo() {
+        if(ytplayer) {
+          ytplayer.mute();
+        }
+      }
+      
+      function unMuteVideo() {
+        if(ytplayer) {
+          ytplayer.unMute();
+        }
+      }
+      
+
+	function loadVideo(videoId)
+	{
+		if (ytplayer) {
+			ytplayer.loadVideoById(videoId);
+		}
+	}
+      
+
+      function onYouTubePlayerReady(playerId) {
+        ytplayer = document.getElementById("ytPlayer");
+        ytplayer.addEventListener("onStateChange", "onPlayerStateChange");
+        ytplayer.addEventListener("onError", "onPlayerError");
+      }
+      
+      function loadPlayer(width, height) {
+        var params = { allowScriptAccess: "always" };
+        var atts = { id: "ytPlayer" };
+        swfobject.embedSWF("http://www.youtube.com/apiplayer?" +
+                           "&enablejsapi=1&playerapiid=player1", 
+                           "videoDiv", width, height, "8", null, null, params, atts);
+
+      }
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;margin: 0;padding: 0">
+    <div id="videoDiv">Loading...</div>
+  </body>
+</html>
